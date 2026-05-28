@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Đảm bảo URL này khớp với địa chỉ uvicorn đang chạy
-const API_URL = 'book-review-depo-production.up.railway.app';
+const API_URL = 'https://book-review-depo-production.up.railway.app';
 
 function App() {
   const [books, setBooks] = useState([]);
